@@ -1,0 +1,42 @@
+.expense-item {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: beige;
+    /* border-radius: 10px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0);
+    padding: 10px; */
+
+    margin: 20px 0 0 10px;
+}
+
+.expense-item__description {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.expense-item__description h2{
+    color: rgb(6, 129, 236);
+
+}
+
+
+
+.expense-item__price {
+    background-color: rgb(214, 187, 239);
+    color: white;
+    border-radius: 5px;
+    padding: 15px 20px;
+    border: 2px solid white;
+    font-weight: bold;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
